@@ -1,4 +1,4 @@
-#lisy of alphabets
+#list of alphabets
 alphabet=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 def encryption(plain_text,shift):# for encryption of mesage
