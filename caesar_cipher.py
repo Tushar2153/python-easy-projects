@@ -1,3 +1,6 @@
+
+This is a basic encryption and decryption program which convert a plain text into cypher text and vice versa.
+
 #list of alphabets
 alphabet=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
