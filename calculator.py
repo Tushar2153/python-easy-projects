@@ -1,3 +1,4 @@
+import os
 def add(a,b):
     return a+b
 def sub(a,b):
@@ -15,13 +16,16 @@ x={
 }
 
 def calculations():
-    n1=int(input("Enter first number :"))
+    
+    n1=float(input("Enter first number :"))
     for symbol in x:
         print(symbol)
+        
     flag=False
+    
     while not flag:
         pick=input("pick an operation")
-        n2= int(input("Enter second number"))
+        n2= float(input("Enter second number"))
 
         oper=x[pick]
         output=oper(n1,n2)
@@ -35,7 +39,9 @@ def calculations():
             flag=True
         elif same=='n':
             flag=True
+            os.system('cls')
             calculations()
+            
 calculations()
  
 
